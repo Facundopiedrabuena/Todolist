@@ -1,12 +1,46 @@
+.form{
+    width: 35%;
+    margin: 60px auto 0;
+  
 
-/* 
+}
+.form span{
+    font-size: 25px;
+    margin-right: 20px;
+}
+.form input{
+    margin-right: 30px;
+    border-color: black;
+}
 
-    You can write your own styles here...
+.form button{
+   border-color: black;
+    padding: 15px;
+    font-size: 20px;
+    background-color: blue;
+    color: white;
     
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+}
+.validacion{
+    width: 35%;
+    color: red;
+    margin: 0 auto;
+}
+.lista{
+    border-color: black;
+    width: 35%;
+    margin: 50px auto 0;
+    border: 20px;
+}
+.tarea{
+    font-size: 20px;
+    margin: 20px 0 15px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    border-top: 5ch;
 
-*/
+}
+.tarea span{
+    border-bottom: 10px;
+   border-color: black;
+}
